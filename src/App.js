@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import { WordReplacePage } from './pages/WordReplacePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="App">
+      <Typography variant="h1" gutterBottom>Feito com amor para ajudar minha esposa</Typography>
+      <WordReplacePage />
+    </Container>
   );
 }
 
